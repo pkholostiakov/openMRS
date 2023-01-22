@@ -120,6 +120,7 @@ public class RegisterPage extends BasePage {
         clickNextBtnClick();
     }
     private void verifyPatientInfo(HashMap<String,String> data) {
+        ///please  explain loop
         List <String> list = new ArrayList<>();
         for (int i = 0; i < confirmationInfoValues.size(); i++) {
             String result;
